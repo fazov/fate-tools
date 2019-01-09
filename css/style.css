@@ -1,0 +1,102 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1200px;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: 'Roboto', "Arial", sans-serif;
+	color: #ffffff;
+
+	background: #141414 url("../img/cubes-bg.jpg") no-repeat center top /cover;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.button-list {
+	margin: 50px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.button-list li {
+	display: inline-block;
+	margin-right: 135px;
+}
+
+.button-list li:last-child {
+	margin-right: 0;
+}
+
+.button-list button {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #DA1884;
+}
+
+.button-list p {
+	margin: 10px 0;
+}
+
+header hr {
+	margin: 0;
+}
+
+.list-question {
+	float: left;
+	width: 315px;
+	min-height: 450px;
+	margin-top: 50px;
+
+	border-radius: 5%;
+	background: #9b6c3f url("../img/wooden_3.jpg") center top;
+	/* opacity: 0.8; */
+	box-shadow: 3px 3px 15px #000000;
+}
+
+.list-question .questions {
+	font-size: 18px;
+	line-height: 24px;
+	color: #1C1C1C; /* #293133; */
+}
+
+.questions {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.questions li {
+	padding: 10px 15px;
+}
+
+.orb-answer {
+	float: right;
+	width: 500px;
+	min-height: 500px;
+	margin-top: 20px;
+
+	background: url("../img/orb_2.png") no-repeat center top;
+	opacity: 0.8;
+}
+
+.orb-answer p {
+	margin-top: 235px;
+	text-align: center;
+}
